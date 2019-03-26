@@ -1,5 +1,5 @@
 # knife.spritesheet
-Load and draw specific portions of image
+Loads and draws specific portions of image
 
 ```lua
 local Spritesheet = require("shard.spritesheet")
