@@ -1,3 +1,4 @@
 # Shard
 Collection of useful mini modules for Lua / Love2D
-![sahrd](shard.png)
+![shard](shard.png)
+ * [shard.spritesheet](readme/spritesheet.md) - Spritesheet for Love2D
