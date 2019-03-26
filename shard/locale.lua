@@ -10,6 +10,10 @@ local currentLocale
 local fallbackLocale
 local useLove2D = false
 
+if love.filesystem then
+  useLove2D = true
+end
+
 function Locale.useLove2D(value)
   useLove2D = value
 end

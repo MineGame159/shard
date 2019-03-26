@@ -6,7 +6,7 @@ local Locale = require("shard.locale")
 ```
 
 ## Locale.useLove2D(value)
-Defaut to false
+If you are using Love2D then default is true otherwise false
 
 ## Locale.load(filename)
 Loads new locale .lua config file
