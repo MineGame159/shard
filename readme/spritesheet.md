@@ -46,6 +46,6 @@ function love.load()
 end
 
 function love.draw()
-  spritesheet.draw("character", 16, 64)
+  spritesheet:draw("character", 16, 64)
 end
 ```
