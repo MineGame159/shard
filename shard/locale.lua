@@ -4,6 +4,7 @@ Locale.mt = {
 }
 setmetatable(Locale, Locale.mt)
 
+local loadedFilenames = {}
 local locales = {}
 local currentLocale
 local fallbackLocale
@@ -14,6 +15,11 @@ function Locale.useLove2D(value)
 end
 
 function Locale.load(filename)
+  if loadedFilenames[filename] then
+    print("shard.locale.load -- File '" .. filename .. "' is already loaded")
+    return
+  end
+
   if useLove2D then
     local locale = love.filesystem.load(filename)()
     locales[locale.id] = locale
@@ -21,6 +27,8 @@ function Locale.load(filename)
     local locale = dofile(filename)
     locales[locale.id] = locale
   end
+
+  table.insert(loadedFilenames, filename)
 end
 
 function Locale.setFallbackLocale(id)
