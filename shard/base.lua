@@ -15,6 +15,8 @@ end
 
 function Base:new(...)
   local instance = copyTable(self)
+  instance._mt.__call = nil
+  setmetatable(instance, instance._mt)
   if instance.init then instance:init(...) end
   return instance
 end

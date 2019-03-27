@@ -45,4 +45,4 @@ print(player:is(Entity))
  - **init** - constructor, called when instantiating class
  - **_className** - Class name, **DONT MODIFY**
  - **_extends** - List of class names that this class extends (class cannot extend multiple classes), **DONT MODIFY**
- - **_mt** - Metatable, *you can add custom methods but **DO NOT MODIFY __index AND __call***
+ - **_mt** - Metatable, *you can add custom methods but **DO NOT MODIFY __index***
