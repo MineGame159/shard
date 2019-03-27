@@ -1,9 +1,8 @@
-local Spritesheet = {}
-Spritesheet.mt = {
-  __index = Spritesheet
-}
+local Base = require("shard/base")
 
-function Spritesheet:new(filename)
+local Spritesheet = Base:extend("Spritesheet")
+
+function Spritesheet:init(filename)
   local instance = {}
   setmetatable(instance, Spritesheet.mt)
 
