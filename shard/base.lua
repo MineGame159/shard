@@ -5,7 +5,11 @@ function Base:extend(className)
   class._className = className
   class._extends = copyTable(self._extends)
   table.insert(class._extends, self._className)
-  setmetatable(class, {__index = Base, __call = function(t, ...) return class:new(...) end})
+  class._mt = {
+    __index = Base,
+    __call = function(t, ...) return class:new(...) end
+  }
+  setmetatable(class, class._mt)
   return class
 end
 
