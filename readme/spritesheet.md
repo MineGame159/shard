@@ -2,7 +2,7 @@
 Loads and draws specific portions of image
 
 ```lua
-local Spritesheet = require("shard.spritesheet")
+local Spritesheet = require("shard/spritesheet")
 ```
 
 ## Spritesheet:new(filename)
@@ -38,7 +38,7 @@ Draws specific sprite
 
 ## Example
 ```lua
-local Spritesheet = require("shard.spritesheet")
+local Spritesheet = require("shard/spritesheet")
 local spritesheet
 
 function love.load()

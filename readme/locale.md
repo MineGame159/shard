@@ -2,7 +2,7 @@
 Locale / translation system for Lua or Love2D
 
 ```lua
-local Locale = require("shard.locale")
+local Locale = require("shard/locale")
 ```
 
 ## Locale.useLove2D(value)
@@ -35,7 +35,7 @@ Checks if locale is loaded
 
 ## Example
 ```lua
-local Locale = require("shard.locale")
+local Locale = require("shard/locale")
 
 Locale.load("en.lua")
 Locale.setLocale("en")
