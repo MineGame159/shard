@@ -1,5 +1,6 @@
 # shard.base
-Fast class system with support for inheritance
+Fast class system with support for inheritance.
+Cannot call super constructor. Constructor is inherited but can be modified
 
 ```lua
 local Base = require("shard/base")
@@ -19,6 +20,9 @@ Checks if class extends specified class
 local Base = require("shard/base")
 
 local Entity = Base:extend("Entity")
+function Entity:init()
+  print("entity created")
+end
 function Entity:takeDamage(damage)
   print("entity took damage " .. damage)
 end
