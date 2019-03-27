@@ -1,5 +1,5 @@
 # knife.spritesheet
-Loads and draws specific portions of image
+Loads and draws specific portions of image  
 *Requires shard.base*
 
 ```lua
@@ -28,14 +28,10 @@ return {
 Draws specific sprite
 
 ### Parameters
- * *string* **name**
-  Sprite name
- * *number* **x, y**
-  Position
- * *number* **r**
-  Rotation in radians
- * *number* **sx, sy**
-  Scale
+ * *string* **name** - Sprite name
+ * *number* **x, y** - Position
+ * *number* **r** - Rotation in radians
+ * *number* **sx, sy** - Scale
 
 ## Example
 ```lua
