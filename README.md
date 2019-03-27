@@ -5,3 +5,4 @@ Collection of useful mini modules for Lua / Love2D
  * [shard.spritesheet](readme/spritesheet.md) - Spritesheet for Love2D
  * [shard.locale](readme/locale.md) - Locale / translation system for Lua or Love2D
  * [shard.signal](readme/signal.md) - Simple but powerful signal system
+ * [shard.timer](readme/timer.md) - Extremely simple timer
