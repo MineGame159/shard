@@ -6,7 +6,7 @@ Loads and draws specific portions of image
 local Spritesheet = require("shard/spritesheet")
 ```
 
-## Spritesheet:new(filename)
+## Spritesheet:new(filename) / Spritesheet(filename)
 Creates new spritesheet from .lua config file
 
 ### Config file structure
