@@ -11,3 +11,4 @@ Simple copy *shard* folder to your folder
  * [shard.locale](readme/locale.md) - Locale / translation system for Lua or Love2D
  * [shard.signal](readme/signal.md) - Simple but powerful signal system
  * [shard.timer](readme/timer.md) - Extremely simple timer
+ * [shard.vector2](readme/vector2.md) - Vector2 class
