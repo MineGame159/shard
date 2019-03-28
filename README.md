@@ -12,4 +12,4 @@ Simple copy *shard* folder to your folder
  * [shard.signal](readme/signal.md) - Simple but powerful signal system
  * [shard.timer](readme/timer.md) - Extremely simple timer
  * [shard.vector2](readme/vector2.md) - Vector2 class
- * [shard.utils](readme/utils) - Utility functions
+ * [shard.utils](readme/utils.md) - Utility functions
