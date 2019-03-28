@@ -1,6 +1,6 @@
 # shard.vector2
 Vector2 class  
-*Requires shard.base*
+*Requires [shard.base](base)*
 
 ## Features
  - Lots of helper methods
