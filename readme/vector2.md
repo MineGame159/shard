@@ -12,7 +12,7 @@ Vector2 class
 local Vector2 = require("shard.vector2")
 ```
 
-## Vector2(x, y)
+## Vector2:new(x, y)
 Creates new vector
 
 ## Vector2:set(x, y)

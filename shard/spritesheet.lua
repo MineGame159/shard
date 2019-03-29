@@ -1,10 +1,11 @@
-local Base = require("shard/base")
+local Spritesheet = {}
+Spritesheet._mt = {
+  __index = Spritesheet
+}
 
-local Spritesheet = Base:extend("Spritesheet")
-
-function Spritesheet:init(filename)
+function Spritesheet:new(filename)
   local instance = {}
-  setmetatable(instance, Spritesheet.mt)
+  setmetatable(instance, Spritesheet._mt)
 
   local config = love.filesystem.load(filename)()
   instance.image = love.graphics.newImage(config.image)

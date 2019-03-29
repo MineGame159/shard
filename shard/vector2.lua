@@ -1,9 +1,13 @@
-local Base = require("shard/base")
+local Vector2 = {}
+Vector2._mt = {
+  __index = Vector2
+}
 
-local Vector2 = Base:extend("Vector2")
-
-function Vector2:init(x, y)
-  self:set(x, y)
+function Vector2:new(x, y)
+  local instance = {x = x, y = y}
+  setmetatable(instance, Vector2._mt)
+  instance:set(x, y)
+  return instance
 end
 
 function Vector2:set(x, y)

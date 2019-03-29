@@ -1,11 +1,15 @@
-local Base = require("shard/base")
+local Timer = {}
+Timer._mt = {
+  __index = Timer
+}
 
-local Timer = Base:extend("Timer")
-
-function Timer:init(duration, callback)
-  self.duration = duration or 1
-  self.currentTime = 0
-  self.callback = callback
+function Timer:new(duration, callback)
+  local instance = {}
+  setmetatable(instance, Timer._mt)
+  instance.duration = duration or 1
+  instance.currentTime = 0
+  instance.callback = callback
+  return instance
 end
 
 function Timer:update(deltaTime)
