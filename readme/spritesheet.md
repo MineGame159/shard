@@ -1,6 +1,5 @@
 # knife.spritesheet
-Loads and draws specific portions of image  
-*Requires [shard.base](base.md)*
+Loads and draws specific portions of image
 
 ```lua
 local Spritesheet = require("shard.spritesheet")

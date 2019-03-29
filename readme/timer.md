@@ -1,6 +1,5 @@
 # shard.timer
-Extremely simple timer  
-*Requires [shard.base](base.md)*
+Extremely simple timer
 
 ```lua
 local Timer = require("shard.timer")
