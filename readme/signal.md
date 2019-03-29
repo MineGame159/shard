@@ -2,7 +2,7 @@
 Simple but powerful signal system
 
 ```lua
-local Signal = require("shard/signal")
+local Signal = require("shard.signal")
 ```
 
 ## Signal.on(signalName, callback)

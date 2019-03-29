@@ -3,7 +3,7 @@ Loads and draws specific portions of image
 *Requires [shard.base](base.md)*
 
 ```lua
-local Spritesheet = require("shard/spritesheet")
+local Spritesheet = require("shard.spritesheet")
 ```
 
 ## Spritesheet:new(filename) / Spritesheet(filename)

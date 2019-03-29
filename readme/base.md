@@ -3,7 +3,7 @@ Fast class system with support for inheritance.
 Cannot call super constructor. Constructor is inherited but can be modified
 
 ```lua
-local Base = require("shard/base")
+local Base = require("shard.base")
 ```
 
 ## Base:extend(className)

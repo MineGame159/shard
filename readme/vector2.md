@@ -9,7 +9,7 @@ Vector2 class
  - Defined tostring method
 
 ```lua
-local Vector2 = require("shard/vector2")
+local Vector2 = require("shard.vector2")
 ```
 
 ## Vector2(x, y)

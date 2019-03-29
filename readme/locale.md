@@ -2,7 +2,7 @@
 Locale / translation system for Lua or Love2D
 
 ```lua
-local Locale = require("shard/locale")
+local Locale = require("shard.locale")
 ```
 
 ## Locale.useLove2D(value)

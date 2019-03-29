@@ -3,7 +3,7 @@ Extremely simple timer
 *Requires [shard.base](base.md)*
 
 ```lua
-local Timer = require("shard/timer")
+local Timer = require("shard.timer")
 ```
 
 ## Timer:new(duration, callback) / Timer(duration, callback)

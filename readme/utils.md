@@ -2,7 +2,7 @@
 Utility functions
 
 ```lua
-local Utils = require("shard/utils")
+local Utils = require("shard.utils")
 ```
 
 ## Utils.degToRad(deg)
