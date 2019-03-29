@@ -2,6 +2,11 @@
 Collection of useful mini modules for Lua / Love2D  
 ![shard](shard.png)
 
+## Features
+ - Small size
+ - Fast execution
+ - Each module is independent
+
 ## Instalation
 Simple copy *shard* folder to your folder
 
