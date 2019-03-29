@@ -5,12 +5,6 @@ Utility functions
 local Utils = require("shard.utils")
 ```
 
-## Utils.degToRad(deg)
-Converts degrees to radians
-
-## Utils.radToDeg(rad)
-Converts radians to degrees
-
 ## Utils.clamp(number, min, max)
 Clamps number
 
